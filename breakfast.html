@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>firstpage</title>
+        <!--css to make tabel have borders-->
+        <style>
+            table, th, td{
+                border:1px solid black;
+                border-collapse:collapse;
+                padding:5px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <colgroup>
+                <col span="1">
+                <col span="1" style="background-color: rgb(209, 151, 230);">
+                <col span="1" style="background-color: pink;">
+                <col span="1" style="background-color: lightblue;">
+                <col span="1" style="background-color: rgb(184, 219, 255);">
+
+
+            </colgroup>
+            <!-- tr is for table row-->
+            <tr>
+                <!-- tabel headers- automatically centered and bolded (th)-->
+                <th> Name </th>
+                <th>Chapter 1</th>
+                <th>Chapter 2</th>
+                <th>Chapter 3</th>
+                <th>Chapter 4</th>
+            </tr>
+            <tr>
+                <td>Nayana </td>
+                <td>x</td>
+                <td></td>
+                <td>x</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Ritwij </td>
+                <td></td>
+                <td></td>
+                <td>x</td>
+                <td>x</td>
+            </tr>
+            <tr>
+                <td>Om </td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+            </tr>
+        </table>
+        <!-- this is a single line comment-->
+        <!--
+        this
+        is
+        a
+        multiline
+        comment
+        -->
+        <style>
+            .red{
+                color:red
+            }
+            .purple{
+                color:purple 
+            }
+            .blue{
+                color:blue
+            }
+        </style>
+        <h1 class = "red" id = "myId"> Welcome page!</h1>
+        <div>
+            <img width= 200 height= 200 src = "pancake.avif" alt="Pancake clipart">
+            <img width= 185 height= 185 src = "https://media.istockphoto.com/id/1145689828/vector/cartoon-breakfast-waffle.jpg?s=612x612&w=0&k=20&c=mVUjw8JS4Vp8B1BXnPna9KlngTuH88uC5cOJiX2MRd8=" alt="waffle clipart">
+            <br>
+            Go to bottom of the page: <a href= "#bottom"> bottom </a>
+        </div>
+        <!-- br is a self closing tag it basically is a new line character-->
+        <p style="color: blue"> 
+            Hello! My name is <br> <span> Varsha </span> 
+        </p>
+        <!-- the <a> tag can be used to provide a link to an external site-->
+        <p> Here is a link to get to : 
+            <!-- target = "_blank" will open up to a new tab-->
+            <a href="https://www.google.com/" target = "_blank"> Google </a>
+        </p>
+        <p> Varsha's email: <a href = "mailto:varshakan2@gmail.com"> varshakan2@gmail.com</a></p>
+        <div>
+            <!-- <hr> gives you a horizontal line-->
+            <hr>
+            <h3 class = "purple"> What should we get for breakfast?</h3>
+            <hr>
+            <p> Here are some options:</p>
+            <!-- This is an ordered list-->
+            <ol type=1 start=1>
+                <li>waffles</li>
+                <li>pancakes</li>
+                    <ul>
+                        <li> blueberry</li>
+                        <li> chocolate chip</li>
+                    </ul>
+                <li>bagels</li>
+                <li>omlets</li>
+            </ol>
+            <p> Here are some fruits to choose from:</p>
+            <!--This is an unordered list-->
+            <ul style="list-style-type: circle;">
+                <li>raspberries</li>
+                <li>pineapple</li>
+                <li>grapes</li>
+                <li>mellons</li>
+            </ul>
+            <!-- description lists-->
+             <dl>
+                <dt>Jams</dt>
+                <dd>- Strawberry</dd>
+                <dd>- Raspberry</dd>
+                <dd>- Grape</dd>
+                <dt>Juices</dt>
+                <dd>- Orange</dd>
+                <dd>- Cramberry</dd>
+             </dl>
+            <p class = "blue"; title = "food"> I want waffles </p>
+            <div> Me too!! </div>
+            hi
+        </div>
+        <p> This is the link to the newFile: <a href = "new.html"> new File </a></p>
+        <div id = "bottom">
+            You have reached the bottom of the page. <a href = "#myId"> go back to top element of id myId?</a>
+        </div>
+    </body>
+</html>
